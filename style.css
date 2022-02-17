@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-size: 30px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(1, 1, 1, 0.4);
+}
+
+button:active {
+  background-color: rgba(1, 1, 1, 0.5);
+}
+
+.button__column {
+  display: flex;
+  flex-direction: row;
+}
+
+.night-screen {
+  background-color: rgba(1, 1, 1, 0.8);
+  color: white;
+}
